@@ -1,0 +1,16 @@
+<table class="list trackers">
+  <thead><tr>
+  <th><%=l(:label_tracker)%></th>
+  <% @categories = TrackerCategory.order(:id)
+     @categories.each do |c| %>
+    <th><%= c.name %></th>    
+  <% end %>
+  </tr></thead>
+<% Tracker.all.each do |tracker| %>
+   <tr class="<%= cycle("odd", "even") %>">
+   <td class="name"><%= link_to tracker.name, { :controller => 'tracker_categories', :action => 'edit', :id => tracker.id } %></td>      
+   <% @categories.each do |c| %>   
+     <td><%= checked_image tracker.category_id.nil? ? false : tracker.category_id == c.id  %></td>     
+   <% end %> 
+<% end %>   
+</table>

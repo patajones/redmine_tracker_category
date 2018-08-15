@@ -1,0 +1,20 @@
+	<p>
+      <label><%=l :label_demand_over_demand_forbidden%>:</label>
+		<%= check_box_tag 'settings[demand_over_demand_forbidden]', 1, RedmineTrackerCategory.demand_over_demand_forbidden? %>
+    </p>
+
+	<p>
+      <label><%=l :label_task_without_parent_forbidden%>:</label>
+		<%= check_box_tag 'settings[task_without_parent_forbidden]', 1, RedmineTrackerCategory.task_without_parent_forbidden? %>
+    </p>	
+
+	<p>
+      <label><%=l :label_task_without_demand_forbidden%>:</label>
+		<%= check_box_tag 'settings[task_without_demand_forbidden]', 1, RedmineTrackerCategory.task_without_demand_forbidden? %>
+    </p>
+
+	<p>
+      <label><%=l :label_force_task_private%>:</label>
+		<%= check_box_tag 'settings[force_task_private]', 1, RedmineTrackerCategory.force_task_private? %>
+    </p>	
+	

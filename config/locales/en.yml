@@ -1,0 +1,16 @@
+en:
+  error_tasks_without_parent: ": A task must have a parent."
+  error_tasks_without_demand: ": A task must have a demand parent."
+  error_demand_over_demand: ": A demand can not be sub-task from another"
+     
+  label_general  : General
+  label_tracker_categories : Issues Categories
+  
+  label_demand_over_demand_forbidden: Forbidden demand over demand
+  label_task_without_parent_forbidden: Forbidden task without parent
+  label_task_without_demand_forbidden: Forbidden task without parent demand
+  label_force_task_private: Force task be private
+  
+  field_tracker_category: Issue Category  
+  
+  text_internal_task: internal task 

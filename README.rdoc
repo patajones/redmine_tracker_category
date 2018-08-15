@@ -1,0 +1,22 @@
+=Redmine Tracker Category Plugin
+
+
+Redmine Tracker Category is a Plugin to categorize issues trackers on two categories: External Demand and Internal Task
+
+Functions:
+  Forbidden External Demand child of another External Demand
+  Forbidden Internal Task without issue parent
+  Forbidden Internal Task without External Demand parent
+  Force Internal Task to be a private issue
+	
+
+==Installation and Setup
+
+Follow the Redmine plugin installation steps at http://www.redmine.org/wiki/redmine/Plugins
+
+Need migrate
+
+==Try in Docker
+
+{<img src="https://raw.githubusercontent.com/play-with-docker/stacks/cff22438cb4195ace27f9b15784bbb497047afa7/assets/images/button.png" alt="Try in Docker" />}[http://play-with-docker.com/?stack=https://raw.githubusercontent.com/patajones/redmine_tracker_category/master/docker-compose.yml]
+

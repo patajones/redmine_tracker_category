@@ -1,0 +1,16 @@
+pt-BR:
+  error_tasks_without_parent: ": Uma tarefa interna deve ser subtarefa de outra tarefa."
+  error_tasks_without_demand: ": Uma tarefa interna deve ser subtarefa de uma Demanda."
+  error_demand_over_demand: ": Uma demanda não pode ser subtarefa de outra"
+      
+  label_general  : Geral
+  label_tracker_categories : Categorias das Tarefas
+  
+  label_demand_over_demand_forbidden: Proibir demanda sob demanda
+  label_task_without_parent_forbidden: Proibir tarefa interna sem uma tarefa pai
+  label_task_without_demand_forbidden: Proibir tarefa interna sem uma demanda pai
+  label_force_task_private: Forçar tarefa interna ser privada
+    
+  field_tracker_category: Categoria da Tarefa
+  
+  text_internal_task: tarefa interna

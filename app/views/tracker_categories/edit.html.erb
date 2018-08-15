@@ -1,0 +1,9 @@
+<%= title [l(:label_plugins), {:controller => 'admin', :action => 'plugins'}], [Redmine::Plugin.find('redmine_tracker_category').name,  {controller: "settings", action: "plugin", id: "redmine_tracker_category", tab: "trackers_list"}], @tracker.name %>
+
+<%= labelled_form_for @tracker, url: {action: 'save'}, :method => :POST do |f| %>
+<div class="box tabular">
+<p><%= f.text_field :name, disabled: true %></p>
+<p><%= f.label :tracker_category %><%= select_tag :category_id, options_from_collection_for_select(TrackerCategory.order(:id), :id, :name, @tracker.category.nil? ? nil : @tracker.category_id ), include_blank: true %></p>
+</div>
+<%= f.submit l(:button_save) %>
+<% end %>
