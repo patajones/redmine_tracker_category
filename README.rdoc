@@ -4,10 +4,10 @@
 Redmine Tracker Category is a Plugin to categorize issues trackers on two categories: External Demand and Internal Task
 
 Functions:
-  Forbidden External Demand child of another External Demand
-  Forbidden Internal Task without issue parent
-  Forbidden Internal Task without External Demand parent
-  Force Internal Task to be a private issue
+* Forbidden External Demand child of another External Demand
+* Forbidden Internal Task without issue parent
+* Forbidden Internal Task without External Demand parent
+* Force Internal Task to be a private issue
 	
 
 ==Installation and Setup
