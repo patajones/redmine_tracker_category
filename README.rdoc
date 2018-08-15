@@ -14,7 +14,7 @@ Functions:
 
 Follow the Redmine plugin installation steps at http://www.redmine.org/wiki/redmine/Plugins
 
-Need migrate
+You need do migrate
 
 ==Try in Docker
 
